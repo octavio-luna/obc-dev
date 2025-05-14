@@ -1,0 +1,1776 @@
+Archive member included because of file (symbol)
+
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                              ./src/main.o (LED_start)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+                              ./src/main.o (WDT_start)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+                              ./src/main.o (WDT_startWatchdogKickTask)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+                              ./src/main.o (HalVersionRevision)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                              ./src/main.o (xTaskGenericCreate)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o) (xTimerCreateTimerTask)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o) (vApplicationStackOverflowHook)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o) (pvPortMalloc)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o) (pxPortInitialiseStack)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o) (xQueueGenericCreate)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o) (vListInitialise)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                              ./src/main.o (exit)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o) (AIC_ConfigureIT)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+                              ./src/main.o (CP15_Enable_I_Cache)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+                              ./src/main.o (DBGU_Configure)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+                              ./src/main.o (PIO_Configure)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o) (PIT_Init)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o) (restart)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+                              (entry)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o) (_readControlRegister)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o) (LowLevelInit)
+C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o) (BOARD_RemapRam)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivsi3.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o) (__aeabi_uidiv)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_dvmd_tls.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o) (__errno)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o) (fflush)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o) (__sinit)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o) (_free_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o) (_fwalk)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o) (_global_impure_ptr)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o) (malloc)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o) (_malloc_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memcpy.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o) (memcpy)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o) (memset)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+                              ./src/main.o (printf)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o) (_sbrk_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o) (__sread)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-syswrite.o)
+                              C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o) (write)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o) (_vfprintf_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-writer.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o) (_write_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (__swsetup_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-closer.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o) (_close_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (_dtoa_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o) (fclose)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (_localeconv_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-lseekr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o) (_lseek_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memchr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (memchr)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o) (_Balloc)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-readr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o) (_read_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o) (errno)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-s_fpclassify.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (__fpclassifyd)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o) (strcmp)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strlen.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (strlen)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (__sprint_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-callocr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o) (_calloc_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o) (_fputwc_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fstatr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o) (_fstat_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o) (__sfvwrite_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-isattyr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o) (_isatty_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memmove.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o) (memmove)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reallocr.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o) (_realloc_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o) (__swbuf_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o) (_wcrtomb_r)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o) (__wctomb)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_addsubdf3.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_muldivdf3.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_cmpdf2.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (__aeabi_dcmpeq)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_fixdfsi.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_aeabi_uldivmod.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o) (__aeabi_uldivmod)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o) (__divdi3)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o) (__udivdi3)
+c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_clzsi2.o)
+                              c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+xQueueRegistry      0x100             C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .text.WDT_stopWatchdogKickTask
+                0x00000000       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .text.WDT_forceKickEveryNms
+                0x00000000       0x34 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.vTaskDelete
+                0x00000000       0x88 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.eTaskGetState
+                0x00000000       0x78 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.uxTaskPriorityGet
+                0x00000000       0x2c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.vTaskPrioritySet
+                0x00000000      0x11c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.xTaskIsTaskSuspended
+                0x00000000       0x74 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.vTaskResume
+                0x00000000       0xb4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.xTaskResumeFromISR
+                0x00000000       0xc0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.vTaskEndScheduler
+                0x00000000       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.pcTaskGetTaskName
+                0x00000000       0x54 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.vTaskDelayUntil
+                0x00000000       0xe0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.vTaskSuspend
+                0x00000000       0x8c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text.xTimerCreate
+                0x00000000       0x80 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text.xTimerIsTimerActive
+                0x00000000       0x24 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text.pvTimerGetTimerID
+                0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .text.vPortInitialiseBlocks
+                0x00000000        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .text.__env_lock
+                0x00000000        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .text.__env_unlock
+                0x00000000        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .text.vPortEndScheduler
+                0x00000000        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .text.portISR_SetDBUGHandler
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .text.portISR_SetRTTHandler
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .text.vPortDisableInterruptsFromThumb
+                0x00000000       0x18 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .text.vPortEnableInterruptsFromThumb
+                0x00000000       0x18 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x7c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueCreateMutex
+                0x00000000       0x9c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x88 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueReceiveFromISR
+                0x00000000       0xe0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueuePeekFromISR
+                0x00000000       0x90 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x4c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x54 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x48 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.vQueueAddToRegistry
+                0x00000000       0x3c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.vQueueUnregisterQueue
+                0x00000000       0x38 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.vQueueDelete
+                0x00000000       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueCreateSet
+                0x00000000        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueAddToSet
+                0x00000000       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueRemoveFromSet
+                0x00000000       0x3c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueSelectFromSet
+                0x00000000       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueSelectFromSetFromISR
+                0x00000000       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ COMMON         0x00000000      0x100 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._open    0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._link    0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._rename  0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._unlink  0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text.fsync    0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._stat    0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._kill    0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._getpid  0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text._gettimeofday
+                0x00000000        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text.CP15_Is_I_CacheEnabled
+                0x00000000       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text.CP15_Is_MMUEnabled
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text.CP15_EnableMMU
+                0x00000000       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text.CP15_Is_DCacheEnabled
+                0x00000000       0x18 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text.CP15_Enable_D_Cache
+                0x00000000       0x58 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text.CP15_Is_AlignmentFaultEnabled
+                0x00000000       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text.CP15_Enable_AlignmentFault
+                0x00000000       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .rodata        0x00000000       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .rodata.str1.1
+                0x00000000       0x29 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .text.DBGU_IsRxReady
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .text.fputc    0x00000000       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .text.fputs    0x00000000       0x3c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .text.putchar  0x00000000       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .text.PIO_Get  0x00000000       0x34 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .text.PIO_GetOutputDataStatus
+                0x00000000       0x24 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .text.PIO_GetISR
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .text.PIT_SetPIV
+                0x00000000       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .text.PIT_DisableIT
+                0x00000000       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .text.PIT_GetMode
+                0x00000000        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .text.PIT_GetStatus
+                0x00000000        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .text.PIT_GetPIIR
+                0x00000000        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .text.PIT_GetPIVR
+                0x00000000        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .text.assignBusMatrixPriorities
+                0x00000000       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .text          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .data          0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .bss           0x00000000        0x0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .text.BOARD_RemapRom
+                0x00000000       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .text.BOARD_ConfigureSdram
+                0x00000000      0x140 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .text.BOARD_ConfigureNorFlash
+                0x00000000       0x64 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .rodata        0x00000000        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x00000000        0x8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000        0x8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x00000000       0x48 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__sfp    0x00000000       0xf8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x00000000        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x00000000        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x24 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x24 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+ .text._printf_r
+                0x00000000       0x34 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-syswrite.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-syswrite.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-syswrite.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .text.vfprintf
+                0x00000000       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-writer.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-writer.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-closer.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-closer.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x00000000       0x6c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .text.__locale_msgcharset
+                0x00000000        0xc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .text.__locale_cjk_lang
+                0x00000000        0x8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .text.setlocale
+                0x00000000       0x1c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .text.localeconv
+                0x00000000        0xc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .data.lc_message_charset
+                0x00000000       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x00000000        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .bss.__nlocale_changed
+                0x00000000        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .bss.__mlocale_changed
+                0x00000000        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memchr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text.__s2b    0x00000000       0xf0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text.__ulp    0x00000000       0x64 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text.__b2d    0x00000000       0xcc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text.__ratio  0x00000000       0x90 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x00000000       0x50 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text.__copybits
+                0x00000000       0x74 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text.__any_on
+                0x00000000       0x88 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x00000000       0x28 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-readr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-readr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xfc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .text._wrapup_reent
+                0x00000000       0x74 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-s_fpclassify.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-s_fpclassify.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-s_fpclassify.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+ .text.strcmp   0x00000000       0x94 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+ .text.strcmp_unaligned
+                0x00000000      0x19c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000000       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x00000000       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .text._vfiprintf_r
+                0x00000000     0x1134 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .text.__sbprintf
+                0x00000000       0xd0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .text.vfiprintf
+                0x00000000       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .rodata.blanks.6678
+                0x00000000       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .rodata.str1.4
+                0x00000000       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .rodata.zeroes.6679
+                0x00000000       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-callocr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-callocr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-callocr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+ .text.fputwc   0x00000000       0x4c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reallocr.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reallocr.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reallocr.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x1c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+ .text.wcrtomb  0x00000000       0xa4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+ .text          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000       0x50 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_clzsi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sram0            0x00200000         0x00004000         w !xr
+sram1            0x00300000         0x00004000         w !xr
+sdram            0x20000000         0x02000000         w !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a
+LOAD ./src/main.o
+LOAD C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a
+LOAD C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a
+LOAD C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a
+START GROUP
+LOAD c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a
+LOAD c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a
+END GROUP
+
+.fixed          0x20000000     0xc814
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sfixed = .
+ *(.startup)
+ .startup       0x20000000      0x184 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+                0x20000000                entry
+ *(.text)
+ .text          0x20000184       0x64 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+                0x20000184                _readControlRegister
+                0x20000190                _writeControlRegister
+                0x20000198                _waitForInterrupt
+                0x200001a4                _writeTTB
+                0x200001ac                _writeDomain
+                0x200001b4                _writeITLBLockdown
+                0x200001bc                _prefetchICacheLine
+                0x200001c4                _flushDCache
+                0x200001d0                _flushWriteBuffer
+                0x200001dc                _invalidateIDTLBs
+ .text          0x200001e8      0x114 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivsi3.o)
+                0x200001e8                __aeabi_uidiv
+                0x200001e8                __udivsi3
+                0x200002dc                __aeabi_uidivmod
+ .text          0x200002fc        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_dvmd_tls.o)
+                0x200002fc                __aeabi_idiv0
+                0x200002fc                __aeabi_ldiv0
+ .text          0x20000300      0x41c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_addsubdf3.o)
+                0x20000300                __aeabi_drsub
+                0x20000308                __aeabi_dsub
+                0x20000308                __subdf3
+                0x2000030c                __aeabi_dadd
+                0x2000030c                __adddf3
+                0x2000061c                __floatunsidf
+                0x2000061c                __aeabi_ui2d
+                0x20000640                __floatsidf
+                0x20000640                __aeabi_i2d
+                0x20000668                __aeabi_f2d
+                0x20000668                __extendsfdf2
+                0x200006a8                __floatundidf
+                0x200006a8                __aeabi_ul2d
+                0x200006bc                __floatdidf
+                0x200006bc                __aeabi_l2d
+ .text          0x2000071c      0x49c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_muldivdf3.o)
+                0x2000071c                __aeabi_dmul
+                0x2000071c                __muldf3
+                0x200009ac                __divdf3
+                0x200009ac                __aeabi_ddiv
+ .text          0x20000bb8      0x144 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_cmpdf2.o)
+                0x20000bb8                __gtdf2
+                0x20000bb8                __gedf2
+                0x20000bc0                __ltdf2
+                0x20000bc0                __ledf2
+                0x20000bc8                __nedf2
+                0x20000bc8                __eqdf2
+                0x20000bc8                __cmpdf2
+                0x20000c50                __aeabi_cdrcmple
+                0x20000c6c                __aeabi_cdcmpeq
+                0x20000c6c                __aeabi_cdcmple
+                0x20000c84                __aeabi_dcmpeq
+                0x20000c9c                __aeabi_dcmplt
+                0x20000cb4                __aeabi_dcmple
+                0x20000ccc                __aeabi_dcmpge
+                0x20000ce4                __aeabi_dcmpgt
+ .text          0x20000cfc       0x5c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_fixdfsi.o)
+                0x20000cfc                __aeabi_d2iz
+                0x20000cfc                __fixdfsi
+ .text          0x20000d58       0x3c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_aeabi_uldivmod.o)
+                0x20000d58                __aeabi_uldivmod
+ .text          0x20000d94       0x84 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o)
+                0x20000d94                __gnu_ldivmod_helper
+                0x20000dd8                __gnu_uldivmod_helper
+ .text          0x20000e18      0x4f0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+                0x20000e18                __divdi3
+ .text          0x20001308      0x488 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
+                0x20001308                __udivdi3
+ .text          0x20001790       0x48 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_clzsi2.o)
+                0x20001790                __clzsi2
+ *(.text*)
+ .text.taskMain
+                0x200017d8       0x3c ./src/main.o
+                0x200017d8                taskMain
+ .text.startup.main
+                0x20001814      0x114 ./src/main.o
+                0x20001814                main
+ .text.uSdelay.constprop.0
+                0x20001928       0x4c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .text.LED_start
+                0x20001974       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                0x20001974                LED_start
+ .text.LED_glow
+                0x20001984       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                0x20001984                LED_glow
+ .text.LED_dark
+                0x200019b4       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                0x200019b4                LED_dark
+ .text.LED_toggle
+                0x200019e4       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                0x200019e4                LED_toggle
+ .text.LED_wave
+                0x20001a00       0x80 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                0x20001a00                LED_wave
+ .text.LED_waveReverse
+                0x20001a80       0x80 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                0x20001a80                LED_waveReverse
+ .text.WDT_start
+                0x20001b00       0x3c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+                0x20001b00                WDT_start
+ .text.WDT_startWatchdogKickTask
+                0x20001b3c       0x88 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+                0x20001b3c                WDT_startWatchdogKickTask
+ .text.prvAddCurrentTaskToDelayedList
+                0x20001bc4       0x60 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.xTaskGenericCreate
+                0x20001c24      0x3e0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20001c24                xTaskGenericCreate
+ .text.vTaskStartScheduler
+                0x20002004       0xc8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002004                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x200020cc       0x18 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x200020cc                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x200020e4       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x200020e4                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x20002104      0x16c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002104                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x20002270      0x140 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002270                xTaskResumeAll
+ .text.prvIdleTask
+                0x200023b0       0x7c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .text.vTaskDelay
+                0x2000242c       0x4c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x2000242c                vTaskDelay
+ .text.vTaskSwitchContext
+                0x20002478       0xfc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002478                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x20002574       0x84 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002574                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x200025f8       0x6c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x200025f8                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x20002664       0xbc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002664                xTaskRemoveFromEventList
+ .text.vTaskSetTimeOutState
+                0x20002720       0x54 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002720                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x20002774       0xd4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002774                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x20002848       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002848                vTaskMissedYield
+ .text.xTaskGetCurrentTaskHandle
+                0x2000285c       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x2000285c                xTaskGetCurrentTaskHandle
+ .text.xTaskGetSchedulerState
+                0x2000286c       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x2000286c                xTaskGetSchedulerState
+ .text.vTaskPriorityInherit
+                0x20002894       0x98 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x20002894                vTaskPriorityInherit
+ .text.vTaskPriorityDisinherit
+                0x2000292c       0x68 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x2000292c                vTaskPriorityDisinherit
+ .text.prvCheckForValidListAndQueue
+                0x20002994       0x58 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text.prvInsertTimerInActiveList
+                0x200029ec       0x70 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text.xTimerCreateTimerTask
+                0x20002a5c       0x88 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+                0x20002a5c                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x20002ae4       0x70 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+                0x20002ae4                xTimerGenericCommand
+ .text.prvSwitchTimerLists.isra.1
+                0x20002b54       0xd0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text.prvTimerTask
+                0x20002c24      0x288 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .text.vApplicationStackOverflowHook
+                0x20002eac       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+                0x20002eac                vApplicationStackOverflowHook
+ .text.vApplicationIdleHook
+                0x20002efc        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+                0x20002efc                vApplicationIdleHook
+ .text.vApplicationMallocFailedHook
+                0x20002f00       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+                0x20002f00                vApplicationMallocFailedHook
+ .text.pvPortMalloc
+                0x20002f28        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+                0x20002f28                pvPortMalloc
+ .text.vPortFree
+                0x20002f2c        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+                0x20002f2c                vPortFree
+ .text._sbrk    0x20002f30       0x78 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+                0x20002f30                _sbrk
+ .text.__malloc_lock
+                0x20002fa8        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+                0x20002fa8                __malloc_lock
+ .text.__malloc_unlock
+                0x20002fac        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+                0x20002fac                __malloc_unlock
+ .text.pxPortInitialiseStack
+                0x20002fb0       0xb8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                0x20002fb0                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x20003068       0x94 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                0x20003068                xPortStartScheduler
+ .text.vPortEnterCritical
+                0x200030fc       0x2c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                0x200030fc                vPortEnterCritical
+ .text.vPortExitCritical
+                0x20003128       0x44 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                0x20003128                vPortExitCritical
+ .text.prvCopyDataToQueue
+                0x2000316c       0xc4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.prvCopyDataFromQueue
+                0x20003230       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.prvNotifyQueueSetContainer
+                0x20003270       0xb4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.prvUnlockQueue
+                0x20003324       0xc8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .text.xQueueGenericReset
+                0x200033ec       0xbc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                0x200033ec                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x200034a8       0x8c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                0x200034a8                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x20003534      0x1f8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                0x20003534                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x2000372c      0x148 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                0x2000372c                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x20003874      0x204 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                0x20003874                xQueueGenericReceive
+ .text.vQueueWaitForMessageRestricted
+                0x20003a78       0x58 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                0x20003a78                vQueueWaitForMessageRestricted
+ .text.vListInitialise
+                0x20003ad0       0x24 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+                0x20003ad0                vListInitialise
+ .text.vListInitialiseItem
+                0x20003af4        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+                0x20003af4                vListInitialiseItem
+ .text.vListInsertEnd
+                0x20003b00       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+                0x20003b00                vListInsertEnd
+ .text.vListInsert
+                0x20003b30       0x58 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+                0x20003b30                vListInsert
+ .text.uxListRemove
+                0x20003b88       0x3c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+                0x20003b88                uxListRemove
+ .text._read    0x20003bc4       0x54 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003bc4                _read
+ .text._write   0x20003c18       0x6c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003c18                _write
+ .text._lseek   0x20003c84        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003c84                _lseek
+ .text._close   0x20003c8c        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003c8c                _close
+ .text._fstat   0x20003c94        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003c94                _fstat
+ .text._isatty  0x20003c9c       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003c9c                _isatty
+ .text._exit    0x20003cac       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003cac                _exit
+ .text.exit     0x20003cc8        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                0x20003cc8                exit
+ .text.AIC_ConfigureIT
+                0x20003cd0       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+                0x20003cd0                AIC_ConfigureIT
+ .text.AIC_EnableIT
+                0x20003d00       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+                0x20003d00                AIC_EnableIT
+ .text.AIC_DisableIT
+                0x20003d14       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+                0x20003d14                AIC_DisableIT
+ .text.CP15_Enable_I_Cache
+                0x20003d28       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+                0x20003d28                CP15_Enable_I_Cache
+ .text.CP15_Disable_I_Cache
+                0x20003d44       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+                0x20003d44                CP15_Disable_I_Cache
+ .text.CP15_DisableMMU
+                0x20003d60       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+                0x20003d60                CP15_DisableMMU
+ .text.CP15_Disable_D_Cache
+                0x20003d7c       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+                0x20003d7c                CP15_Disable_D_Cache
+ .text.CP15_Disable_AlignmentFault
+                0x20003d98       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+                0x20003d98                CP15_Disable_AlignmentFault
+ .text.DBGU_Configure
+                0x20003db4       0x44 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+                0x20003db4                DBGU_Configure
+ .text.DBGU_PutChar
+                0x20003df8       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+                0x20003df8                DBGU_PutChar
+ .text.DBGU_GetChar
+                0x20003e20       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+                0x20003e20                DBGU_GetChar
+ .text.PIO_Configure
+                0x20003e3c      0x128 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+                0x20003e3c                PIO_Configure
+ .text.PIO_Set  0x20003f64       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+                0x20003f64                PIO_Set
+ .text.PIO_Clear
+                0x20003f74       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+                0x20003f74                PIO_Clear
+ .text.PIT_Init
+                0x20003f84       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+                0x20003f84                PIT_Init
+ .text.PIT_Enable
+                0x20003fac       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+                0x20003fac                PIT_Enable
+ .text.PIT_EnableIT
+                0x20003fc0       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+                0x20003fc0                PIT_EnableIT
+ .text.print_hex
+                0x20003fd4       0x44 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .text.handleAbort
+                0x20004018      0x880 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+                0x20004018                handleAbort
+ .text.restart  0x20004898       0x2c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+                0x20004898                restart
+ .text.defaultSpuriousHandler
+                0x200048c4        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+                0x200048c4                defaultSpuriousHandler
+ .text.defaultIrqHandler
+                0x200048c8       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+                0x200048c8                defaultIrqHandler
+ .text.defaultFiqHandler
+                0x200048f8       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+                0x200048f8                defaultFiqHandler
+ .text.LowLevelInit
+                0x20004928       0x94 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+                0x20004928                LowLevelInit
+ .text.BOARD_RemapRam
+                0x200049bc       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+                0x200049bc                BOARD_RemapRam
+ .text.__errno  0x200049cc       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+                0x200049cc                __errno
+ .text._fflush_r
+                0x200049dc      0x250 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+                0x200049dc                _fflush_r
+ .text.fflush   0x20004c2c       0x40 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+                0x20004c2c                fflush
+ .text._cleanup_r
+                0x20004c6c       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+                0x20004c6c                _cleanup_r
+ .text.std.isra.0
+                0x20004c84       0x7c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .text.__sinit  0x20004d00       0x78 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+                0x20004d00                __sinit
+ .text.__sfp_lock_acquire
+                0x20004d78        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+                0x20004d78                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x20004d7c        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+                0x20004d7c                __sfp_lock_release
+ .text._malloc_trim_r
+                0x20004d80       0xfc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+                0x20004d80                _malloc_trim_r
+ .text._free_r  0x20004e7c      0x26c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+                0x20004e7c                _free_r
+ .text._fwalk   0x200050e8       0x88 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+                0x200050e8                _fwalk
+ .text._fwalk_reent
+                0x20005170       0x8c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+                0x20005170                _fwalk_reent
+ .text.malloc   0x200051fc       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+                0x200051fc                malloc
+ .text.free     0x2000521c       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+                0x2000521c                free
+ .text._malloc_r
+                0x2000523c      0x73c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000523c                _malloc_r
+ .text.memcpy   0x20005978       0xf4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memcpy.o)
+                0x20005978                memcpy
+ .text.memset   0x20005a6c       0xf8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                0x20005a6c                memset
+ .text.printf   0x20005b64       0x40 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+                0x20005b64                printf
+ .text._sbrk_r  0x20005ba4       0x40 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o)
+                0x20005ba4                _sbrk_r
+ .text.__sread  0x20005be4       0x34 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+                0x20005be4                __sread
+ .text.__swrite
+                0x20005c18       0x58 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+                0x20005c18                __swrite
+ .text.__sseek  0x20005c70       0x34 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+                0x20005c70                __sseek
+ .text.__sclose
+                0x20005ca4       0x14 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+                0x20005ca4                __sclose
+ .text.write    0x20005cb8       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-syswrite.o)
+                0x20005cb8                write
+ .text._vfprintf_r
+                0x20005ce8     0x1fe8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+                0x20005ce8                _vfprintf_r
+ .text.__sbprintf
+                0x20007cd0       0xd0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .text._write_r
+                0x20007da0       0x44 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-writer.o)
+                0x20007da0                _write_r
+ .text.__swsetup_r
+                0x20007de4      0x138 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o)
+                0x20007de4                __swsetup_r
+ .text._close_r
+                0x20007f1c       0x3c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-closer.o)
+                0x20007f1c                _close_r
+ .text.quorem   0x20007f58      0x1e0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x20008138     0x1698 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+                0x20008138                _dtoa_r
+ .text._fclose_r
+                0x200097d0       0xf8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+                0x200097d0                _fclose_r
+ .text.fclose   0x200098c8       0x14 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+                0x200098c8                fclose
+ .text.__locale_charset
+                0x200098dc        0xc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+                0x200098dc                __locale_charset
+ .text.__locale_mb_cur_max
+                0x200098e8       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+                0x200098e8                __locale_mb_cur_max
+ .text._localeconv_r
+                0x200098f8        0xc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+                0x200098f8                _localeconv_r
+ .text._lseek_r
+                0x20009904       0x44 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-lseekr.o)
+                0x20009904                _lseek_r
+ .text.__smakebuf_r
+                0x20009948      0x15c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o)
+                0x20009948                __smakebuf_r
+ .text.memchr   0x20009aa4      0x11c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memchr.o)
+                0x20009aa4                memchr
+ .text._Balloc  0x20009bc0       0x8c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x20009bc0                _Balloc
+ .text._Bfree   0x20009c4c       0x1c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x20009c4c                _Bfree
+ .text.__multadd
+                0x20009c68       0xdc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x20009c68                __multadd
+ .text.__hi0bits
+                0x20009d44       0x50 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x20009d44                __hi0bits
+ .text.__lo0bits
+                0x20009d94       0x94 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x20009d94                __lo0bits
+ .text.__i2b    0x20009e28       0x24 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x20009e28                __i2b
+ .text.__multiply
+                0x20009e4c      0x1e4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x20009e4c                __multiply
+ .text.__pow5mult
+                0x2000a030       0xf4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x2000a030                __pow5mult
+ .text.__lshift
+                0x2000a124      0x104 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x2000a124                __lshift
+ .text.__mcmp   0x2000a228       0x64 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x2000a228                __mcmp
+ .text.__mdiff  0x2000a28c      0x14c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x2000a28c                __mdiff
+ .text.__d2b    0x2000a3d8      0x108 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x2000a3d8                __d2b
+ .text._read_r  0x2000a4e0       0x44 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-readr.o)
+                0x2000a4e0                _read_r
+ .text.__fpclassifyd
+                0x2000a524       0x6c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-s_fpclassify.o)
+                0x2000a524                __fpclassifyd
+ .text.strlen   0x2000a590       0x60 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strlen.o)
+                0x2000a590                strlen
+ .text.__sprint_r
+                0x2000a5f0       0xc0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+                0x2000a5f0                __sprint_r
+ .text._calloc_r
+                0x2000a6b0       0x94 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-callocr.o)
+                0x2000a6b0                _calloc_r
+ .text._fputwc_r
+                0x2000a744      0x150 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+                0x2000a744                _fputwc_r
+ .text._fstat_r
+                0x2000a894       0x40 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fstatr.o)
+                0x2000a894                _fstat_r
+ .text.__sfvwrite_r
+                0x2000a8d4      0x4c4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o)
+                0x2000a8d4                __sfvwrite_r
+ .text._isatty_r
+                0x2000ad98       0x3c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-isattyr.o)
+                0x2000ad98                _isatty_r
+ .text.memmove  0x2000add4      0x134 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memmove.o)
+                0x2000add4                memmove
+ .text._realloc_r
+                0x2000af08      0x574 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reallocr.o)
+                0x2000af08                _realloc_r
+ .text.__swbuf_r
+                0x2000b47c      0x130 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+                0x2000b47c                __swbuf_r
+ .text._wcrtomb_r
+                0x2000b5ac       0x90 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+                0x2000b5ac                _wcrtomb_r
+ .text.__ascii_wctomb
+                0x2000b63c       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+                0x2000b63c                __ascii_wctomb
+ .text.__ascii_wctomb.stub
+                0x2000b668        0x8 linker stubs
+ *(.rodata)
+ .rodata        0x2000b670        0xc ./src/main.o
+ .rodata        0x2000b67c       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .rodata        0x2000b6ac        0xc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .rodata        0x2000b6b8       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+                0x2000b6b8                HalOBCHardwareRevision
+                0x2000b6bd                HalVersionRevision
+                0x2000b6bf                HalVersionMinor
+                0x2000b6c1                HalVersionMajor
+                0x2000b6c3                HalCompileTime
+                0x2000b6cc                HalCompileDate
+ .rodata        0x2000b6d8       0x24 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x2000b6fc       0xe3 ./src/main.o
+ .rodata.str1.1
+                0x2000b7df       0x11 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .rodata.str1.1
+                0x2000b7f0       0x41 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .rodata.str1.1
+                0x2000b831       0x17 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+                                 0x43 (size before relaxing)
+ .rodata.str1.1
+                0x2000b848       0x8b C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .rodata.str1.1
+                0x2000b8d3        0xe C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                                 0x3a (size before relaxing)
+ .rodata.str1.1
+                0x2000b8e1       0x1c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .rodata.str1.1
+                0x2000b8fd      0x476 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+                                0x487 (size before relaxing)
+ .rodata.str1.1
+                0x2000bd73       0x76 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ *fill*         0x2000bde9        0x3 00
+ .rodata.str1.4
+                0x2000bdec        0x2 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x2000bdee        0x2 00
+ .rodata._global_impure_ptr
+                0x2000bdf0        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x2000bdf0                _global_impure_ptr
+ .rodata.blanks.6735
+                0x2000bdf4       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x2000be04       0x42 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+                                 0x44 (size before relaxing)
+ *fill*         0x2000be46        0x2 00
+ .rodata.zeroes.6736
+                0x2000be48       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x2000be58       0x10 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+                                 0x14 (size before relaxing)
+ .rodata.str1.4
+                0x2000be68        0xc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+                                 0x14 (size before relaxing)
+ .rodata.p05.5242
+                0x2000be74        0xc c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .rodata.__mprec_tens
+                0x2000be80       0xc8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x2000be80                __mprec_tens
+ .rodata.__mprec_bigtens
+                0x2000bf48       0x28 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+                0x2000bf48                __mprec_bigtens
+ *(.rodata.*)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+ *(.data)
+ .data          0x2000bf70        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .data          0x2000bf74        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                0x2000bf74                ulCriticalNesting
+ *(.data.*)
+ .data.impure_data
+                0x2000bf78      0x428 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x2000c3a0        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+                0x2000c3a0                _impure_ptr
+ .data.__malloc_av_
+                0x2000c3a4      0x408 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000c3a4                __malloc_av_
+ .data.__malloc_trim_threshold
+                0x2000c7ac        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000c7ac                __malloc_trim_threshold
+ .data.__malloc_sbrk_base
+                0x2000c7b0        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000c7b0                __malloc_sbrk_base
+ .data.lconv    0x2000c7b4       0x38 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .data.lc_ctype_charset
+                0x2000c7ec       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .data.__mb_cur_max
+                0x2000c80c        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+                0x2000c80c                __mb_cur_max
+ .data.__wctomb
+                0x2000c810        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+                0x2000c810                __wctomb
+ *(.dyn)
+ *(.iplt)
+ .iplt          0x00000000        0x0 ./src/main.o
+ *(.igot)
+ *(.igot.plt)
+ .igot.plt      0x00000000        0x0 ./src/main.o
+ *(.rel.dyn)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000        0x0 ./src/main.o
+                0x2000c814                . = ALIGN (0x4)
+                0x2000c814                _efixed = .
+
+.ARM.exidx      0x2000c814        0x8
+ *(.ARM.exidx)
+ .ARM.exidx     0x2000c814        0x8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x2000c81c        0x0 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+                0x2000c81c                _eexidx = .
+
+.ARM.extab      0x2000c81c        0x0
+ *(.ARM.extab)
+                0x2000c81c                _eextab = .
+
+.prerelocate    0x00200000        0x0 load address 0x2000c81c
+                0x00200000                . = ALIGN (0x4)
+                0x00200000                _sprerelocate = .
+                0x00200000                . = ALIGN (0x4)
+                0x00200000                _eprerelocate = .
+
+.postrelocate   0x00200000      0x300 load address 0x2000c81c
+                0x00200000                . = ALIGN (0x4)
+                0x00200000                _spostrelocate = .
+ *(.vectors)
+ .vectors       0x00200000       0xd4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ *(.sramfunc)
+ .sramfunc      0x002000d4       0x6c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+                0x002000d4                WDT_forceKick
+                0x00200110                WDT_kickEveryNcalls
+ .sramfunc      0x00200140       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .sramfunc      0x00200170      0x134 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                0x00200170                vPortTickISR
+                0x002001f8                vPortYieldProcessor
+ .sramfunc      0x002002a4       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+                0x002002a4                gracefulReset
+ *fill*         0x002002cc        0x4 00
+ .sramfunc.stub
+                0x002002d0       0x30 linker stubs
+ *(.ramfunc)
+                0x00200300                . = ALIGN (0x4)
+                0x00200300                _epostrelocate = .
+
+.sramdata       0x00300000        0xc load address 0x2000cb1c
+                0x00300000                . = ALIGN (0x4)
+                0x00300000                _ssramdata = .
+ *(.sramdata)
+ .sramdata      0x00300000        0x4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .sramdata      0x00300004        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+                0x0030000c                . = ALIGN (0x4)
+                0x0030000c                _esramdata = .
+
+.srambss        0x0030000c        0x0
+                0x0030000c                . = ALIGN (0x4)
+                0x0030000c                _ssrambss = .
+ *(.srambss)
+                0x0030000c                . = ALIGN (0x4)
+                0x0030000c                _esrambss = .
+
+.bss            0x2000c81c      0x194
+                0x2000c81c                _szero = .
+ *(.bss)
+ .bss           0x2000c81c       0x10 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .bss           0x2000c82c        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .bss           0x2000c834       0xfc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                0x2000c834                pxCurrentTCB
+ .bss           0x2000c930       0x38 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .bss           0x2000c968        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .bss           0x2000c970        0x8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ *(.bss.*)
+ .bss.__malloc_max_total_mem
+                0x2000c978        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000c978                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x2000c97c        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000c97c                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x2000c980        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000c980                __malloc_top_pad
+ .bss.__malloc_current_mallinfo
+                0x2000c984       0x28 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+                0x2000c984                __malloc_current_mallinfo
+ *(COMMON)
+ COMMON         0x2000c9ac        0x4 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+                0x2000c9ac                errno
+ *(COMMON.*)
+                0x2000c9b0                . = ALIGN (0x4)
+                0x2000c9b0                _ezero = .
+                0x2000c9b0                _sheap_ = .
+                0x21f00000                _eheap_ = 0x21f00000
+                0x21fffc00                _sstack = 0x21fffc00
+                0x2000c9b0                end = .
+OUTPUT(isis-obc-first-project.elf elf32-littlearm)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .comment       0x00000000       0x71 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x32 ./src/main.o
+ .ARM.attributes
+                0x00000032       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .ARM.attributes
+                0x00000064       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .ARM.attributes
+                0x00000096       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .ARM.attributes
+                0x000000c8       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .ARM.attributes
+                0x000000fa       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .ARM.attributes
+                0x0000012c       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .ARM.attributes
+                0x0000015e       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .ARM.attributes
+                0x00000190       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .ARM.attributes
+                0x000001c2       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .ARM.attributes
+                0x000001f4       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .ARM.attributes
+                0x00000226       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .ARM.attributes
+                0x00000258       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .ARM.attributes
+                0x0000028a       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .ARM.attributes
+                0x000002bc       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .ARM.attributes
+                0x000002ee       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .ARM.attributes
+                0x00000320       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .ARM.attributes
+                0x00000352       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .ARM.attributes
+                0x00000384       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .ARM.attributes
+                0x000003b6       0x22 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .ARM.attributes
+                0x000003d8       0x22 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+ .ARM.attributes
+                0x000003fa       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .ARM.attributes
+                0x0000042c       0x32 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .ARM.attributes
+                0x0000045e       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000476       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000048e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000004be       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x000004ee       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x0000051e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000054e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x0000057e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000005ae       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x000005de       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000060e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000063e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000066e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+ .ARM.attributes
+                0x0000069e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000006ce       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x000006fe       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-syswrite.o)
+ .ARM.attributes
+                0x0000072e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .ARM.attributes
+                0x0000075e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000078e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000007be       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-closer.o)
+ .ARM.attributes
+                0x000007ee       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x0000081e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x0000084e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000087e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x000008ae       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x000008de       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x0000090e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x0000093e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-readr.o)
+ .ARM.attributes
+                0x0000096e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000099e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x000009ce       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000009fe       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .ARM.attributes
+                0x00000a2e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x00000a5e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x00000a8e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000abe       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000aee       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000b1e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000b4e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000b7e       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x00000bae       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x00000bde       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x00000c0e       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000c26       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000c3e       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000c56       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000c6e       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000c86       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000cb6       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000ce6       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000d16       0x18 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_clzsi2.o)
+
+.debug_info     0x00000000     0xc820
+ .debug_info    0x00000000      0x785 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .debug_info    0x00000785      0x480 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .debug_info    0x00000c05      0x39a C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .debug_info    0x00000f9f       0xf6 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .debug_info    0x00001095     0x2556 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .debug_info    0x000035eb     0x1005 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .debug_info    0x000045f0      0x20f C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .debug_info    0x000047ff      0x2e8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .debug_info    0x00004ae7      0x751 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .debug_info    0x00005238     0x1c74 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .debug_info    0x00006eac      0x2a3 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .debug_info    0x0000714f      0x654 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .debug_info    0x000077a3      0x286 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .debug_info    0x00007a29      0xcd2 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .debug_info    0x000086fb      0xca7 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .debug_info    0x000093a2      0x7a7 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .debug_info    0x00009b49      0x1a6 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .debug_info    0x00009cef     0x1087 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .debug_info    0x0000ad76       0x92 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .debug_info    0x0000ae08       0x81 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+ .debug_info    0x0000ae89     0x1004 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .debug_info    0x0000be8d      0x993 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+
+.debug_abbrev   0x00000000     0x27c6
+ .debug_abbrev  0x00000000      0x211 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .debug_abbrev  0x00000211      0x16c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .debug_abbrev  0x0000037d      0x19f C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .debug_abbrev  0x0000051c       0x45 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .debug_abbrev  0x00000561      0x49f C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .debug_abbrev  0x00000a00      0x2f2 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .debug_abbrev  0x00000cf2      0x10d C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .debug_abbrev  0x00000dff      0x1cb C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .debug_abbrev  0x00000fca      0x2ef C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .debug_abbrev  0x000012b9      0x364 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .debug_abbrev  0x0000161d       0xf8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .debug_abbrev  0x00001715      0x1cc C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .debug_abbrev  0x000018e1       0xec C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .debug_abbrev  0x000019cd      0x270 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .debug_abbrev  0x00001c3d      0x247 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .debug_abbrev  0x00001e84      0x1d2 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .debug_abbrev  0x00002056       0xe2 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .debug_abbrev  0x00002138      0x29b C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .debug_abbrev  0x000023d3       0x12 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .debug_abbrev  0x000023e5       0x14 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+ .debug_abbrev  0x000023f9      0x213 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .debug_abbrev  0x0000260c      0x1ba C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+
+.debug_loc      0x00000000     0x3f50
+ .debug_loc     0x00000000      0x189 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .debug_loc     0x00000189       0x81 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .debug_loc     0x0000020a      0x107 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .debug_loc     0x00000311      0xf2e C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .debug_loc     0x0000123f      0x790 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .debug_loc     0x000019cf       0x7c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .debug_loc     0x00001a4b       0xa1 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .debug_loc     0x00001aec      0x1c1 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .debug_loc     0x00001cad     0x1258 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .debug_loc     0x00002f05       0xac C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .debug_loc     0x00002fb1      0x36b C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .debug_loc     0x0000331c       0x90 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .debug_loc     0x000033ac      0x355 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .debug_loc     0x00003701      0x173 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .debug_loc     0x00003874      0x20c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .debug_loc     0x00003a80       0x42 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .debug_loc     0x00003ac2      0x317 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .debug_loc     0x00003dd9       0xe0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .debug_loc     0x00003eb9       0x97 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+
+.debug_aranges  0x00000000      0x7c8
+ .debug_aranges
+                0x00000000       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .debug_aranges
+                0x00000050       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .debug_aranges
+                0x00000080       0x38 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .debug_aranges
+                0x000000b8       0x18 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .debug_aranges
+                0x000000d0      0x120 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .debug_aranges
+                0x000001f0       0x60 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .debug_aranges
+                0x00000250       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .debug_aranges
+                0x00000280       0x60 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .debug_aranges
+                0x000002e0       0x70 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .debug_aranges
+                0x00000350      0x100 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .debug_aranges
+                0x00000450       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .debug_aranges
+                0x00000490       0xa0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .debug_aranges
+                0x00000530       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .debug_aranges
+                0x00000560       0x78 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .debug_aranges
+                0x000005d8       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .debug_aranges
+                0x00000628       0x48 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .debug_aranges
+                0x00000670       0x60 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .debug_aranges
+                0x000006d0       0x38 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .debug_aranges
+                0x00000708       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .debug_aranges
+                0x00000730       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+ .debug_aranges
+                0x00000750       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .debug_aranges
+                0x00000790       0x38 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+
+.debug_ranges   0x00000000      0x778
+ .debug_ranges  0x00000000       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .debug_ranges  0x00000040       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .debug_ranges  0x00000060       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .debug_ranges  0x00000088      0x170 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .debug_ranges  0x000001f8       0xb0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .debug_ranges  0x000002a8       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .debug_ranges  0x000002c8       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .debug_ranges  0x00000318       0x90 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .debug_ranges  0x000003a8       0xf0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .debug_ranges  0x00000498       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .debug_ranges  0x000004c8       0x90 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .debug_ranges  0x00000558       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .debug_ranges  0x00000578       0x68 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .debug_ranges  0x000005e0       0x40 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .debug_ranges  0x00000620       0x68 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .debug_ranges  0x00000688       0x50 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .debug_ranges  0x000006d8       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .debug_ranges  0x00000700       0x20 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .debug_ranges  0x00000720       0x30 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .debug_ranges  0x00000750       0x28 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+
+.debug_line     0x00000000     0x30a0
+ .debug_line    0x00000000      0x21e C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .debug_line    0x0000021e       0xe6 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .debug_line    0x00000304      0x17e C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .debug_line    0x00000482       0x36 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+ .debug_line    0x000004b8      0x770 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .debug_line    0x00000c28      0x315 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .debug_line    0x00000f3d      0x1f4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .debug_line    0x00001131      0x1c7 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .debug_line    0x000012f8      0x26d C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .debug_line    0x00001565      0x605 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .debug_line    0x00001b6a      0x117 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .debug_line    0x00001c81      0x327 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .debug_line    0x00001fa8       0xb4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .debug_line    0x0000205c      0x2b4 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .debug_line    0x00002310      0x27c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .debug_line    0x0000258c      0x179 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .debug_line    0x00002705      0x118 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .debug_line    0x0000281d      0x331 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .debug_line    0x00002b4e      0x11d C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_cstartup.o)
+ .debug_line    0x00002c6b       0x6f C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15_asm.o)
+ .debug_line    0x00002cda      0x282 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .debug_line    0x00002f5c      0x144 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+
+.debug_str      0x00000000     0x2adf
+ .debug_str     0x00000000      0x2fd C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+                                0x34b (size before relaxing)
+ .debug_str     0x000002fd       0x5d C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+                                0x313 (size before relaxing)
+ .debug_str     0x0000035a      0x1a5 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+                                0x2f8 (size before relaxing)
+ .debug_str     0x000004ff       0x7e C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(version.o)
+                                0x10d (size before relaxing)
+ .debug_str     0x0000057d      0xc78 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+                                0xe5d (size before relaxing)
+ .debug_str     0x000011f5      0x3c3 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+                                0x71a (size before relaxing)
+ .debug_str     0x000015b8       0x49 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00001601       0xea C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+                                0x263 (size before relaxing)
+ .debug_str     0x000016eb      0x308 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+                                0x504 (size before relaxing)
+ .debug_str     0x000019f3      0x472 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+                                0x8c1 (size before relaxing)
+ .debug_str     0x00001e65       0x55 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+                                0x257 (size before relaxing)
+ .debug_str     0x00001eba      0x1b3 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+                                0x2ef (size before relaxing)
+ .debug_str     0x0000206d       0xd9 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+                                0x1be (size before relaxing)
+ .debug_str     0x00002146      0x165 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+                                0x640 (size before relaxing)
+ .debug_str     0x000022ab       0x64 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+                                0x65a (size before relaxing)
+ .debug_str     0x0000230f      0x160 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+                                0x408 (size before relaxing)
+ .debug_str     0x0000246f       0x7a C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+                                0x17c (size before relaxing)
+ .debug_str     0x000024e9      0x1a9 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+                                0x35c (size before relaxing)
+ .debug_str     0x00002692      0x24c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+                                0x8ac (size before relaxing)
+ .debug_str     0x000028de      0x201 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+                                0x64f (size before relaxing)
+
+.debug_frame    0x00000000     0x1ef8
+ .debug_frame   0x00000000       0xa8 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(LED.o)
+ .debug_frame   0x000000a8       0x68 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerNoOS.o)
+ .debug_frame   0x00000110       0x7c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/hal/lib\libHAL.a(WatchDogTimerOS.o)
+ .debug_frame   0x0000018c      0x360 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(tasks.o)
+ .debug_frame   0x000004ec      0x118 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(timers.o)
+ .debug_frame   0x00000604       0x54 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(hooks.o)
+ .debug_frame   0x00000658       0xac C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(standardMemMang.o)
+ .debug_frame   0x00000704       0xd0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(port.o)
+ .debug_frame   0x000007d4      0x314 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(queue.o)
+ .debug_frame   0x00000ae8       0x68 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/freertos/lib\libFreeRTOS.a(list.o)
+ .debug_frame   0x00000b50      0x158 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(syscalls.o)
+ .debug_frame   0x00000ca8       0x48 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(aic.o)
+ .debug_frame   0x00000cf0      0x130 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(cp15.o)
+ .debug_frame   0x00000e20       0xa0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(dbgu.o)
+ .debug_frame   0x00000ec0       0x7c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pio.o)
+ .debug_frame   0x00000f3c       0xa0 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(pit.o)
+ .debug_frame   0x00000fdc       0x7c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(ExitHandler.o)
+ .debug_frame   0x00001058       0x78 C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_lowlevel.o)
+ .debug_frame   0x000010d0       0x5c C:/ISIS/ISIS-OBC/isis-obc-first-project/..//hal/at91/lib\libAt91.a(board_memories.o)
+ .debug_frame   0x0000112c       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000114c       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_frame   0x0000116c       0x48 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fflush.o)
+ .debug_frame   0x000011b4      0x134 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-findfp.o)
+ .debug_frame   0x000012e8       0x50 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-freer.o)
+ .debug_frame   0x00001338       0x54 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x0000138c       0x40 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-malloc.o)
+ .debug_frame   0x000013cc       0x38 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00001404       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00001430       0x28 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .debug_frame   0x00001458       0x58 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-printf.o)
+ .debug_frame   0x000014b0       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000014dc       0x88 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-stdio.o)
+ .debug_frame   0x00001564       0x28 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-syswrite.o)
+ .debug_frame   0x0000158c       0x84 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfprintf.o)
+ .debug_frame   0x00001610       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-writer.o)
+ .debug_frame   0x0000163c       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x00001668       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-closer.o)
+ .debug_frame   0x00001694       0x64 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x000016f8       0x3c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fclose.o)
+ .debug_frame   0x00001734       0x98 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-locale.o)
+ .debug_frame   0x000017cc       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x000017f8       0x30 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x00001828       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memchr.o)
+ .debug_frame   0x00001854      0x220 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-mprec.o)
+ .debug_frame   0x00001a74       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-readr.o)
+ .debug_frame   0x00001aa0       0x68 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reent.o)
+ .debug_frame   0x00001b08       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00001b28       0x20 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00001b48       0xa8 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-vfiprintf.o)
+ .debug_frame   0x00001bf0       0x28 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-callocr.o)
+ .debug_frame   0x00001c18       0x50 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fputwc.o)
+ .debug_frame   0x00001c68       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x00001c94       0x38 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x00001ccc       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x00001cf8       0x2c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00001d24       0x38 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00001d5c       0x3c c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wbuf.o)
+ .debug_frame   0x00001d98       0x58 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wcrtomb.o)
+ .debug_frame   0x00001df0       0x44 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib\libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00001e34       0x54 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(bpabi.o)
+ .debug_frame   0x00001e88       0x38 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_divdi3.o)
+ .debug_frame   0x00001ec0       0x38 c:/isis/application/toolchain/bin/../lib/gcc/arm-none-eabi/4.7.4\libgcc.a(_udivdi3.o)
