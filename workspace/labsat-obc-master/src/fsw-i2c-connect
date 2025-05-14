@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use IO::Socket::UNIX;
+
+my $socket_path = "\0/tmp/qemu_at91_twi";
+
+my $client = IO::Socket::UNIX->new( Type=>SOCK_STREAM, Peer=>$socket_path, )
+	or die "Cannot create client socket: $!\n";
+
+while (1) {
+
+    my $data;
+    $client->recv($data, 1024); # Receive packet
+    if( $data ) {
+        # Extract and print header bytes
+        my $slave_address = substr($data, 0, 1);
+        my $control_byte = substr($data, 1, 1);
+        my $payload = substr($data, 2);
+
+        print "Received I2C Header - Slave Address: ".unpack('H*',$slave_address)."\n";
+        print "Received I2C Header - Control Byte: ".unpack('H*',$control_byte)."\n";
+        
+        print_data($payload);
+
+        # Create a valid I2C response header and packet
+        my $response_slave_address = "\x50";  # Example slave address byte
+        my $response_control_byte = "\x00";   # Example control byte
+        my $response_data = "ok";
+        my $i2c_packet = $response_slave_address . $response_control_byte . $response_data;
+        # Send the I2C response packet
+        $client->send($i2c_packet);
+    }
+}
+
+close($client);
+
+
+sub print_data {
+    my ($data) = @_;
+    # Print in hexadecimal
+    my $hex = unpack('H*', $data);
+    print "Hex: $hex\n";
+
+    # Print in ASCII
+    print "ASCII: $data\n";
+}
+

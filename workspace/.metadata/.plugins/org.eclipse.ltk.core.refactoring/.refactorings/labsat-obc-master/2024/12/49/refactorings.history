@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;labsat-obc-master/src/LogManager.cc&apos; to &apos;LogManager.c&apos;" description="Rename resource &apos;LogManager.cc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/LogManager.cc" name="LogManager.c" stamp="1733079606923" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+03:02:21 **** Clean-only build of configuration Release for project isis-obc-first-project ****
+make -r clean 
+rm -rf  isis-obc-first-project.siz  ./src/main.o  ./src/main.d  isis-obc-first-project.bin  isis-obc-first-project.elf
+ 
+
+03:02:22 Build Finished (took 680ms)
+

@@ -1,0 +1,11 @@
+14:23:52 **** Build of configuration Debug for project labsat-obc-master ****
+make all 
+Building file: ../src/CSPManager.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=arm926ej-s -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D__ASSEMBLY__ -Dsdram -Dat91sam9g20 -DTRACE_LEVEL=5 -DDEBUG=1 -D'BASE_REVISION_NUMBER=' -D'BASE_REVISION_HASH_SHORT=' -D'BASE_REVISION_HASH=' -IC:/ISIS/ISIS-OBC/hal/hal/include -IC:/ISIS/ISIS-OBC/hal/hcc/include -IC:/ISIS/ISIS-OBC/hal/at91/include -IC:/ISIS/ISIS-OBC/hal/freertos/include -IC:/ISIS/ISIS-OBC/mission-support/mission-support/include -IC:/ISIS/ISIS-OBC/satellite-subsystems/satellite-subsystems/include -MMD -MP -MF"src/CSPManager.d" -MT"src/CSPManager.d" -c -o "src/CSPManager.o" "../src/CSPManager.c"
+../src/CSPManager.c:1:23: fatal error: CSPManager.h: No such file or directory
+compilation terminated.
+make: *** [src/CSPManager.o] Error 1
+
+14:23:54 Build Finished (took 2s.75ms)
+

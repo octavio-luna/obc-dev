@@ -1,0 +1,70 @@
+#!/usr/bin/bash
+# script to start the fsw (flight software executable) 
+
+BASEDIR=/extra/src/ISIS
+RUNDIR=$BASEDIR/workspace/labsat-obc-master/src
+KERNEL=$RUNDIR/fsw.debug
+SDCARD=/extra/src/sdcard.img
+
+# Executable "/usr/local/bin/qemu-system-arm" was compiled 
+# from the Stuttgart isis-iobc qemu version
+QEMU=/usr/local/bin/qemu-system-arm
+
+if [ "$1" == "gdb" ]; then
+	CMD="$QEMU -M isis-obc
+			--kernel $KERNEL
+			-drive if=sd,index=0,format=raw,file=$SDCARD
+			-nographic
+			-monitor null
+			-serial stdio
+			-serial pty
+			-serial pty
+			-s -S"
+	echo $CMD
+	$CMD
+
+elif [ "$1" == "gdb-extra" ]; then
+	CMD="$QEMU -M isis-obc
+			-device loader,file=$KERNEL,addr=0x20000000,force-raw=on
+			-device loader,addr=0xfffffc30,data=0x00001302,data-len=4
+			-device loader,addr=0xfffffc2c,data=0x10193f05,data-len=4
+			-device loader,addr=0xfffffc28,data=0x202a3f01,data-len=4
+			-device loader,addr=0xfffffc20,data=0x00004001,data-len=4
+			-device loader,addr=0x20000000,cpu-num=0
+			-drive if=sd,index=0,format=raw,file=$SDCARD
+			-nographic
+			-monitor null
+			-serial stdio
+			-serial pty
+			-serial pty
+			-s -S"
+	echo $CMD
+	$CMD
+
+elif [ "$1" == "qmp-extra" ]; then
+	CMD="$QEMU -M isis-obc
+		-device loader,file=$KERNEL,addr=0x20000000,force-raw=on
+		-device loader,addr=0xfffffc30,data=0x00001302,data-len=4
+		-device loader,addr=0xfffffc2c,data=0x10193f05,data-len=4
+		-device loader,addr=0xfffffc28,data=0x202a3f01,data-len=4
+		-device loader,addr=0xfffffc20,data=0x00004001,data-len=4
+		-device loader,addr=0x20000000,cpu-num=0
+		-drive if=sd,index=0,format=raw,file=$SDCARD
+		-nographic
+		-monitor null
+		-serial stdio
+		-serial pty
+		-serial pty
+		-qmp unix:/tmp/qemu,server
+		-S"
+	echo $CMD
+	$CMD
+
+else
+    echo "Usage: $0 {gdb|gdb-extra|qmp-extra}"
+	 echo "	gdb and gdb-executions can be controlled using a gdb connection to localport:1234"
+	 echo "	qmp-extra can be controlled using /extra/src/qemu-iobc/scripts/qmp/qmp-shell"
+	 echo "	'extra' options add memory addresses to start command line"
+    exit 1
+fi
+

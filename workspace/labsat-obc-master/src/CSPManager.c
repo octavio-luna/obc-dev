@@ -1,0 +1,294 @@
+#include <CSPManager.h>
+#include <LogManager.h>
+// LIBCSP includes 
+#include <csp/csp_debug.h>
+#include <csp/csp.h>
+#include <csp/drivers/usart.h>
+#include <csp/csp_crc32.h>
+#include <csp/csp_id.h>
+// use string.c at91 light versions of posix functions
+#include <string.h>
+// FreeRTOS includes
+#include <freertos/FreeRTOS.h>
+#include <freertos/task.h>
+#include <freertos/queue.h>
+// HAL includes
+#include <hal/Drivers/UART.h>
+
+#include "misc.h"
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- csp adaptation---------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+/* libcsp define la siguiente estructura en libcsp/src/drivers/usart/usart_kiss.c, por eso no podemos ponerla en un include */ 
+typedef struct {
+	char name[CSP_IFLIST_NAME_MAX + 1];
+	csp_iface_t iface;
+	csp_kiss_interface_data_t ifdata;
+	csp_usart_fd_t fd;
+} kiss_context_t;
+
+typedef void (*csp_ifce_callback_t) (csp_iface_t* iface, const uint8_t *buf, size_t len, void *pxTaskWoken);
+
+typedef struct {
+	csp_ifce_callback_t rx_callback;
+	kiss_context_t kctx;
+	uint8_t  rcvBufRing[CSP_RX_RINGBUF_COUNT][CSP_BUF_SIZE];
+	xTaskHandle rxTaskHandle;
+	xSemaphoreHandle sem;
+	UARTbus bus; // isis obc accepts bus0_uart and bus2_uart
+} usart_context_t;
+// For the moment we open only one UART interface for CSP.
+// If more CSP UART ifces are needed, we will make a table of usart_context_t's.
+usart_context_t usart_ctx;
+
+// these are only one instance even if we later open more interfaces (i2c-csp, spi-csp, etc)
+xTaskHandle cspRouterTaskHandle = 0;
+xQueueHandle txDelQueue = 0;
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+static void csp_router_task(void *pvParameters) {
+	UPLOG_NOTICE("%s starting",__FUNCTION__);
+	#ifndef FLIGHT_VERSION
+	int c=0;
+	#endif
+	while (1) {
+		// next function routes 1 packet and returns
+		csp_route_work();
+		#ifndef FLIGHT_VERSION
+			if( c++ > 10 ) { c=0; UPDEBUG("%s %u packets routed",__FUNCTION__,c); }
+		#endif
+	}
+	vTaskDelete(NULL);
+}
+
+
+
+// CSP UART special bytes
+#define FEND     0xC0
+#define FESC     0xDB
+#define TFEND    0xDC
+#define TFESC    0xDD
+#define TNC_DATA 0x00
+static void csp_uart_rx_task(void* param) {
+	usart_context_t* uctx = param;
+	int n;
+	uint8_t  rcvBufIdx = 0;
+	uint8_t* rcvCursor = uctx->rcvBufRing[0];
+	uint8_t* rcvBufPassed;
+	uint32_t rcvBytes = 0;
+	uint32_t rcvBytesPassed;
+	UPLOG_NOTICE("%s starting",__FUNCTION__);
+	while(true) {
+		// Performs a blocking read sleeping this task until a byte is read.
+		// This allows other tasks to execute while the transfer is made using DMA.
+		if( (n=UART_read(uctx->bus,rcvCursor,1))!=0 ) {
+			UPLOG_ERR("%s error reading uart(%u): %d",__FUNCTION__,uctx->bus,n);
+			vTaskDelay(pdMS_TO_TICKS(1000)); // wait 1 second after read error, it is too long, but to prevent multiple consecutive errors
+			continue; // TODO: analizar errores y ver si necesita reinicializar o anular el servicio
+		}
+		++rcvBytes;
+		// si llego la marca de fin de paquete o si no hay mas lugar notificamos a csp router y rotamos el ring buffer
+		if( ( *rcvCursor==FEND && rcvBytes>1 ) || rcvBytes==CSP_BUF_SIZE ) {
+			rcvBytesPassed = rcvBytes;
+			rcvBufPassed   = uctx->rcvBufRing[rcvBufIdx];
+			// rotar ring buffer
+			++rcvBufIdx; if( rcvBufIdx==CSP_RX_RINGBUF_COUNT ) rcvBufIdx = 0;
+			rcvBytes  = 0;
+			rcvCursor = uctx->rcvBufRing[rcvBufIdx];
+			UPLOG_DEBUG("%s notifying csp rx callback on new packet idx=%u",__FUNCTION__,rcvBufIdx);
+			// do further processing for received packet
+			uctx->rx_callback(&(uctx->kctx.iface),rcvBufPassed,rcvBytesPassed,NULL);
+		} else {
+			++rcvCursor;
+		}
+	}
+	vTaskDelete(NULL);
+}
+
+
+static void uart_tx_end_callback(SystemContext ctx,void* u) {
+	if( ctx==task_context ) {
+		vPortFree(u);
+	} else { // isr_context
+		portBASE_TYPE ptw = pdFALSE;
+		// do not call vPortFree() from ISR, but ensure deletion from csp_palermo_kiss_tx()
+		xQueueSendFromISR(txDelQueue,&u,&ptw);
+		if( ptw==pdTRUE ) portYIELD_FROM_ISR();
+	}
+}
+
+
+// iface->nexhop by default is csp_kiss_tx(), csp_i2c_tx(), etc
+// but we replaced it for csp_palermo_kiss_tx()
+
+// csp_kiss_tx() calls ifdata->tx_func=csp_usart_write()
+// but csp_palermo_kiss_tx() calls UART_queueTransfer() (or UART_write() in case of failure)
+
+// CSp transmissions function-call sequence
+//csp_send()  libcsp/src/csp_io.c
+//   csp_send_direct()  libcsp/src/csp_io.c
+//      csp_send_direct_iface()  libcsp/src/csp_io.c
+//         (iface->nexthop)()=csp_palermo_kiss_tx()
+//               UART_queueTransfer()
+static int csp_palermo_kiss_tx(csp_iface_t * iface, uint16_t via, csp_packet_t * packet, int from_me) {
+	usart_context_t* uctx = iface->driver_data;
+	int ret = CSP_ERR_NONE;
+  	void* v; 
+	while( pdTRUE==xQueueReceive(txDelQueue,&v,0) ) vPortFree(v); // delete old escaped and transmitted packets
+
+	/* TODO: Check if UART_queueTransfer() and UART_write() and csp_buffer_free() actually need us to protect them */
+ 	if( xSemaphoreTake( uctx->sem,pdMS_TO_TICKS(45))!=pdTRUE ) return CSP_ERR_TX;
+	/* Add CRC32 checksum - the MTU setting ensures there is space */
+	csp_crc32_append(packet);
+	/* Save the outgoing id in the buffer */
+	csp_id_prepend(packet);
+
+	/* Transmit data */
+	// start[]={FEND, TNC_DATA}, esc_end[]={FESC, TFEND}, esc_esc[]={FESC, TFESC}, stop[]={FEND};
+	v = pvPortMalloc( (packet->frame_length)*2 + 12 );
+	UARTtransferStatus    *uts = v;
+	const unsigned char *begin = packet->frame_begin;
+	const unsigned char     *p = begin;
+	unsigned char      *escPkt = v + sizeof(UARTtransferStatus);
+	unsigned char           *q = escPkt;
+	unsigned int i;
+	*uts = 0;
+	*q++ = FEND; *q++ = TNC_DATA;
+	for(i=0; i<packet->frame_length; ++i, ++p) {
+		if( *p==FEND )      { *q++ = FESC; *q++ = TFEND; }
+		else if( *p==FESC ) { *q++ = FESC; *q++ = TFESC; }
+		else 					  { *q++ = *p; }
+	}
+	*q++ = FEND;
+	// packet copied (and escaped) to a new buffer in v, so free csp_buffer now
+	csp_buffer_free(packet);
+
+	UARTgenericTransfer tr = {
+			.bus = uctx->bus,
+			.direction = write_uartDir,
+			.writeData = escPkt,
+			.writeSize = q-escPkt,
+			.postTransferDelay = 0,
+			.result = uts,
+			.semaphore = v, // esto es poco ortodoxo, pero es el unico dato que le pasa la hal al callback
+			.callback = uart_tx_end_callback
+	};
+	int n;
+	if( (n=UART_queueTransfer(&tr))!=0 ) {
+		UPLOG_WARNING("%s error queuing tx, retrying in blocking call: %d\n",__FUNCTION__,n);
+		n=UART_write(tr.bus,tr.writeData,tr.writeSize);
+		vPortFree(v); // already sent or failed, but escaped packet can be deleted now
+		if( n!=0 ) {
+			UPLOG_ERR("%s error writing to csp uart: %s",__FUNCTION__,n);
+			ret=CSP_ERR_TX;
+		}
+	}
+ 	xSemaphoreGive( uctx->sem );
+	return ret;
+}
+
+// forward declarations
+// int csp_palermo_kiss_tx(csp_iface_t * iface, uint16_t via, csp_packet_t * packet, int from_me);
+// void csp_uart_rx_task(void* param);
+// static void csp_router_task(void *pvParameters);
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+// public functions
+
+
+// ifname "0","1","2", ... or "uart0","uart1","uart2", ...
+int CSPManagerInit(const char* ifname) {
+	static const char* uname = "uart0";
+	const char* p = ifname; if( icasecmp(ifname,uname,4) ) p += 4;
+	int devIdx = *p - '0';
+	usart_context_t* uctx = &usart_ctx; memset(uctx,0,sizeof(usart_context_t));
+	kiss_context_t*  kctx= &(uctx->kctx);
+	switch( devIdx ) {
+		case 0: uctx->bus = bus0_uart; break;
+		case 2: uctx->bus = bus2_uart; break;
+		default: UPLOG_ERR("%s nonvalid dev name: %s",__FUNCTION__,ifname); return CSP_ERR_INVAL;
+	}
+	strncpy(kctx->name,ifname,sizeof(kctx->name)-1); kctx->name[sizeof(kctx->name)-1] = 0;
+	kctx->fd = devIdx;
+	// csp_uart_rx_task() recibe los paquetes y los manda a kiss_driver_rx() que los manda a csp_kiss_rx()
+	// pero como kiss_driver_rx() es solo un wrapper, lo mandamos directo a csp_kiss_rx()
+	uctx->rx_callback = csp_kiss_rx;
+	// next variable will not be used because we replace csp_kiss_tx() with csp_palermo_kiss_tx()
+	// which does not call ifdata->tx_func
+	kctx->ifdata.tx_func = 0; // unused in our project
+	csp_iface_t* ictx = &kctx->iface;
+	ictx->name = kctx->name;
+	ictx->driver_data = uctx;
+	ictx->interface_data = &(kctx->ifdata);
+	ictx->addr = CSP_LOCAL_UART_ADDR;
+
+	UARTconfig uconf = {
+		CSP_UART_MODE
+  		CSP_UART_RATE,
+  		CSP_UART_TIMEGUARD,
+  		CSP_UART_BUS_TYPE,
+  		CSP_UART_DEFAULTTIMEOUT
+	};
+	int res = UART_start(uctx->bus, uconf);
+	if( res!=0 ) { UPLOG_ERR("%s error starting hal uart driver: %s",__FUNCTION__,res); return res; }
+	csp_init();
+	res = csp_kiss_add_interface(ictx);
+	if( res!=CSP_ERR_NONE ) { UPLOG_ERR("%s error adding kiss ifce %d",__FUNCTION__,res); return res; }
+	// we replace standard csp_kiss_tx() in libcsp/src/interfaces/csp_if_kiss.c
+	// with csp_palermo_kiss_tx() which is much more advanced
+	ictx->nexthop = csp_palermo_kiss_tx;
+	// create rx task, which will detect frame start and stop, and pass received
+	// packets to (uctx->rx_callback)() = csp_kiss_rx()
+	if( pdPASS!=xTaskCreate(
+				csp_uart_rx_task, /* func implementing the task. */
+				"csp_uart_rx_task",  /* task name: not used by kernel */
+				CSP_STACK_DEPTH,  /* size of stack to allocate to task */
+				uctx,             /* The parameter passed to task */
+				CSP_UART_RX_PRIO, /* task priority */
+				&(uctx->rxTaskHandle) ) ) 
+	{
+		UPLOG_ERR("%s: failed to create csp_uart_rx_task for dev: %s\n", __FUNCTION__,ifname);
+		return CSP_ERR_NOMEM;
+	}
+	if( pdPASS!=xTaskCreate(
+				csp_router_task, /* func implementing the task. */
+				"csp_router_task", /* task name: not used by kernel */
+				CSP_STACK_DEPTH,  /* size of stack to allocate to task */
+				0,             /* The parameter passed to task */
+				CSP_UART_RX_PRIO, /* task priority */
+				&cspRouterTaskHandle ) ) 
+	{
+		UPLOG_ERR("%s: failed to create csp_router_task", __FUNCTION__);
+		return CSP_ERR_NOMEM;
+	}
+	uctx->sem = xSemaphoreCreateMutex();
+	if( txDelQueue==0 ) txDelQueue = xQueueCreate(128,sizeof(void*));
+
+	// add default route (0/0) through this iface
+	csp_rtable_set(0 /* destAddr */, 0 /* netmask */, ictx, CSP_NO_VIA_ADDRESS);
+	UPLOG_INFO("%s opened uart %s\n",__FUNCTION__,ifname);
+
+	return CSP_ERR_NONE;
+}
+
+
+void CSPShowStatus() {
+	UPLOG_INFO("Connection table\r\n"); csp_conn_print_table();
+	UPLOG_INFO("Interfaces\r\n"); csp_iflist_print();
+	UPLOG_INFO("Route table\r\n"); csp_rtable_print();
+}
+
+/*- csp hooks -------------------------------------------------------------------------------*/
+#include <csp/csp_hooks.h>
+
+__attribute__((weak)) uint32_t csp_memfree_hook(void) { return 0; }
+__attribute__((weak)) unsigned int csp_ps_hook(csp_packet_t* packet) { (void)packet; return 0; }
+__attribute__((weak)) void csp_reboot_hook(void) { }
+__attribute__((weak)) void csp_shutdown_hook(void) { }
+

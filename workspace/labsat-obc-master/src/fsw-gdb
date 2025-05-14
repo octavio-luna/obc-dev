@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+BASEDIR=/extra/src/ISIS
+RUNDIR=$BASEDIR/workspace/labsat-obc-master/src
+
+GDB=$BASEDIR/applications/toolchain/bin/arm-none-eabi-gdb
+KERNEL=$RUNDIR/fsw.debug
+
+CMD="$GDB $KERNEL -x $RUNDIR/fsw-initgdb"
+
+echo $CMD
+$CMD

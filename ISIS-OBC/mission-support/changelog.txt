@@ -1,0 +1,203 @@
+Changelog for ISIS OBC Mission Support library
+
+Table of contents
+
+Changelog for:
+- Version 0.1.8 (23 Mar 2022)
+- Version 0.1.7 (26 Sep 2019)
+- Version 0.1.6 (03 Aug 2018)
+- Version 0.1.5 (29 Oct 2015)
+- Version 0.1.4 (20 Apr 2015)
+- Version 0.1.3 (07 Apr 2015)
+- Version 0.1.2 (27 Jan 2015)
+- Version 0.1.1 (31 Dec 2014)
+- Version 0.1.0 (12 Dec 2014)
+
+Version 0.1.8
+=============
+
+Summary: many updates and fixes for PersistentList, several smaller improvements to Log and ParamsDB
+Release date: 23rd of March, 2022
+Prepared by: Gerard Aalbers, Alf Henrik Sauge
+
+General changes
+
+* Update to make use of the latest version of the HAL library, this version of the Mission Support Library requires HAL library version 0.3.0 or later.
+* Change baudrate of debug UART in demo code to 115200
+* Added demo for PersistentList
+* Several doxygen improvements in various modules
+
+Specific changes
+
+FramRegistry.h & FramRegistry.c
+
+* FRAMReg_SetOccupied now accepts ASCII string with each item for better traceability / readability, mission support modules will use prefix + number
+
+ParamsDB.c
+
+* Added TRACE_ERROR calls to ParamsDB_getParam and ParamsDB_setParam for parameter size mismatches
+* ParamsDB_stop now marks FRAM as free in FRAM registry
+
+Log.c
+
+* Improved input parameter checking for several functions
+* Made check of configuration passed into Log_start more thorough
+* Log will no longer start when RAM allocation fails
+* Fixed potential null-pointer issues
+
+PersistentList.h & PesistentList.c
+
+* Removed position parameter from PersistentListIteratorGetNodeData function, this can now be retrieved using the PersistentListIteratorGetNodePosition function
+* Added PersistentListIteratorNextNodeData function to move to next node and retrieve node data at the same time
+* Added PLIST_START and PLIST_END definitions to specify the first and last node of a list, respectively
+* Removed PersistentListPrint function
+* Fixed several memory leaks
+* Improved error handling in case of FRAM failures and memory allocation failures
+* Fixed CRC calculations when updating data of a node and when removing non-head nodes
+
+Version 0.1.7
+=============
+
+Summary: new PersistentList module, new FRAMRegistry functionality, Log re-entrancy, misc. fixes
+Release date: 29th of September 2019
+Prepared by: Gerard Aalbers, Alf Henrik Sauge
+
+General changes
+
+* This release introduces a new module for the mission support library: PersistentList. This module allows for the creation and manipulation of a list of items with an arbitrary, but fixed, size. This list is stored in non-volatile memory and is therefore persistent across reboots.
+* Added FRAMRegistry, which keeps tracks of FRAM use by the modules in the mission support library to help prevent conflicts and memory segment overlays.
+* Log module is now re-entrant safe.
+
+Specific changes
+
+ParamsDB.h & ParamsDB.c
+
+* Improved error handling for all functions
+* Please note that zero-sized parameters are no longer allowed
+
+Log.h
+
+* Updated integer values of some of the error code defines
+
+Log.c
+
+* Fixed issue with Log stats not updating when using explicit instead of implicit file flushes
+
+Version 0.1.6
+=============
+
+Summary: updated HAL library dependency, Log fixes
+Release date: 3rd of August 2018
+Prepared by: Gerard Aalbers, Jonathan Ward
+
+General changes
+
+* Update to make use of the latest version of the HAL library, this version of the Mission Support Library requires HAL library version 0.2.7 or later.
+* Mission support library is now compatible with hardware revisions B and C of the iOBC, making use of the additional FRAM memory if it's available
+
+Specific changes 
+
+ParamsDB.c
+
+* Improved speed of CRC calculations
+
+Log.c
+
+* Fixed issue with next entrynumber not getting reset properly when clearing a log
+* Fixed issue where a log with a single entry in a file could not be resumed
+* Fixed issue with log module leaking file handles
+
+Version 0.1.5
+============= 
+
+Summary: updated HAL library dependency, Log fixes
+Release date: 29th of October 2015
+Prepared by: Gerard Aalbers
+
+General changes
+
+* Update to make use of the latest version of the HAL library, this version of the Mission Support Library requires HAL library version 0.2.2 or later.
+
+Specific changes
+
+Log.c
+* Log_clear now only clears media that are used by a Log, preventing unwanted behaviour and unexpected error codes
+* Fixed issue where number of entries in FRAM was reported incorrectly after resuming a Log
+
+Version 0.1.4
+============= 
+
+Summary: updated HAL library dependency, doxygen changes, Log changes
+Release date: 20th of April 2015
+Prepared by: Gerard Aalbers
+
+General changes
+
+* Update to make use of the latest version of the HAL library, this version of the Mission Support Library requires HAL library version 0.2.0 or later.
+
+* Log module and associated demonstration code now makes use of the journalling filesystem introduced in version 0.2.0 of the HAL library.
+
+* Several doxygen documentation improvements and renamed directory with doxygen from html to doxygen for clarity
+
+Specific changes
+
+Log.h & Log.c
+* Added option to enable or disable flushing of the Log file on every add. Flushing makes full use of the journalling filesystem's reliability but offers reduced performance.
+* Added function to force a flush of the Log file in case flushing on every add has been disabled
+* Improved performance when reading Log entries from RAM or FRAM
+* Fixed issue with determining whether a certain Log entry was contained in the Log file or not
+
+Version 0.1.3
+============= 
+
+Summary: updated HAL library dependency, ParamsDB stop fix
+Release date: 7th of April 2015
+Prepared by: Gerard Aalbers
+
+General changes
+
+* Update to make use of the latest version of the HAL library, this version of the Mission Support Library requires HAL library 0.1.9 or later
+
+Specific changes
+
+ParamsDB.c
+* Fixed issue where calling ParamsDB_stop() twice in a row would cause a reset
+
+Version 0.1.2
+============= 
+
+Summary: updated HAL library dependency
+Release date: 27th of January 2015
+Prepared by: Gerard Aalbers
+
+General changes
+
+* Update to make use of the latest version of the HAL library, this version of the Mission Support Library requires HAL library 0.1.5 or later
+
+Version 0.1.1
+============= 
+
+Summary: demo code added
+Release date: 31st of December 2014
+Prepared by: Gerard Aalbers
+
+General changes
+
+* Added demo code for both Log and Parameter Database modules
+
+Version 0.1.0 
+============= 
+
+Summary: initial customer release
+Release date: 12th of December 2014
+Prepared by: Gerard Aalbers
+
+General changes
+
+* Initial release of the Mission Support Library for the ISIS OBC to customers
+
+Included modules
+
+* Log - A logging module for sequentially storing and retrieving any kind of fixed size data, such as telemetry or errors. This module can be configured to use volatile or non-volatile memory only or a combination thereof and the amount of data stored in each of these memories. Multiple logs can exist at the same time and data from a log can be retrieved by multiple tasks at the same time.
+
+* Parameter Database - A module to quickly and reliably store and retrieve parameters, e.g. flags or values that can be used for configuration of the software running on the ISIS OBC. The parameters are stored in non-volatile storage so their values are persistent between reboots but this module has the ability to make non-persistent changes, e.g. for testing purposes.

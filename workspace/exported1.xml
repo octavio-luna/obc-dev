@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="Assembly Source File">
+<includepath workspace_path="true">/isis-obc-first-project/isis-obc-first-project/src</includepath>
+<includepath>C:/ISIS/ISIS-OBC/hal/freertos/include</includepath>
+<includepath>C:/ISIS/ISIS-OBC/hal/hal/include</includepath>
+<includepath>C:/ISIS/ISIS-OBC/hal/at91/include</includepath>
+
+</language>
+<language name="C Source File">
+<includepath workspace_path="true">/isis-obc-first-project/isis-obc-first-project/src</includepath>
+<includepath>C:/ISIS/ISIS-OBC/hal/freertos/include</includepath>
+<includepath>C:/ISIS/ISIS-OBC/hal/hal/include</includepath>
+<includepath>C:/ISIS/ISIS-OBC/hal/at91/include</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="Assembly Source File">
+<macro>
+<name>__ASSEMBLY__</name><value/>
+</macro>
+<macro>
+<name>sdram</name><value/>
+</macro>
+<macro>
+<name>at91sam9g20</name><value/>
+</macro>
+<macro>
+<name>TRACE_LEVEL</name><value>5</value>
+</macro>
+<macro>
+<name>DEBUG</name><value>1</value>
+</macro>
+<macro>
+<name>'BASE_REVISION_NUMBER</name><value>$(REV)'</value>
+</macro>
+<macro>
+<name>'BASE_REVISION_HASH_SHORT</name><value>$(REVHASH_SHORT)'</value>
+</macro>
+<macro>
+<name>'BASE_REVISION_HASH</name><value>$(REVHASH)'</value>
+</macro>
+
+</language>
+<language name="C Source File">
+<macro>
+<name>__ASSEMBLY__</name><value/>
+</macro>
+<macro>
+<name>sdram</name><value/>
+</macro>
+<macro>
+<name>at91sam9g20</name><value/>
+</macro>
+<macro>
+<name>TRACE_LEVEL</name><value>5</value>
+</macro>
+<macro>
+<name>DEBUG</name><value>1</value>
+</macro>
+<macro>
+<name>'BASE_REVISION_NUMBER</name><value>$(REV)'</value>
+</macro>
+<macro>
+<name>'BASE_REVISION_HASH_SHORT</name><value>$(REVHASH_SHORT)'</value>
+</macro>
+<macro>
+<name>'BASE_REVISION_HASH</name><value>$(REVHASH)'</value>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>
